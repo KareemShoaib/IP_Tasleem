@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Shop Addict Cart</title>
+    <link rel="stylesheet" href="CSS/ecommerce.css">
+    <link rel="stylesheet" href="CSS/header.css">
+    <link rel="stylesheet" href="CSS/cart.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+</head>
+
+
+
+
+</style>
+
+<body>
+
+    <div class="header-style">
+        <div class="left-section">
+            <img class="images" src="Images/Screenshot 2023-11-21 185617.png" alt="" />
+        </div>
+
+        <div class="middle-section">
+
+
+        </div>
+
+        <div class="right-section">
+            <div style="justify-content: center; padding-left: 130px">
+                <nav>
+                    <div class="dropdown">
+
+                        <button class="dropbtn">More&#9660;
+                            <div class="dropdown-content">
+                                <a href="AboutUs.html">About Us</a>
+                                <a href="ContactMe.html">Contact me</a>
+                                <a href="ReviewUs.html">Review Our Page</a>
+                            </div>
+                    </div>
+
+                    <a href="Cart.html" id="cartnavbar">Cart</a>
+
+                    <div class="extra-features">
+                    </div>
+                    <a href="index.html">Home</a>
+                    <div class="dropdown">
+
+                        <button class="dropbtn">Products&#9660;
+                            <div class="dropdown-content">
+                                <a href="Clothes.html">Clothes</a>
+                                <a href="Phones.html">Phones</a>
+                                <a href="Laptops.html">Laptops</a>
+                                <a href="Books.html">Shoes</a>
+                                <a href="Headphones.html">Headphones</a>
+                            </div>
+                    </div>
+                    <a href="index.html">Sign-Out</a>
+
+                </nav>
+            </div>
+
+
+            </button>
+        </div>
+    </div>
+
+    <div class="cart-container">
+        <img src="Images/Shopping-Cart-Icons35.webp" width="150" height="150" style="margin-left: 30px;">
+        <h2>Your Cart Items</h2>
+    
+        <div id="cartItems"></div>
+
+        <p id="totalPrice" style="font-weight: bold; font-size: 18px; margin-top: 10px;"></p>
+
+    </div>
+
+    <div class="checkout-btn-container">
+        <button class="checkout-btn" onclick="checkout()">Checkout</button>
+    </div>  
+
+
+
+   <script src="JS/cart.js">
+</script>
+
+
+</body>
+
+</html>
